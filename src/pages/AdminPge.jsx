@@ -9,6 +9,7 @@ const AdminPge = () => {
         localStorage.removeItem(LOGIN_PARAM);
         navigate("/login")
     }
+
     return (
         <div>
             <h1>AdminPge</h1>
