@@ -27,7 +27,7 @@ const LoginPage = () => {
 
     return (
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-            <h1>Login</h1>
+            <h1>Login Page</h1>
             <input onChange={(e) => onInputChange("username", e.target.value)} placeholder='username' />
             <input type='password' onChange={(e) => onInputChange("password", e.target.value)} placeholder='password' />
             {errorLogin && <p style={{ color: "red" }}>{errorLogin}</p>}

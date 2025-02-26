@@ -16,7 +16,7 @@ function App() {
       <Route path='/product/:id' element={<DetailPage />} />
       <Route path='/admin' element={isAuth ? <AdminPge /> : <Navigate to="/login" />} />
       <Route path='/login' element={<LoginPage />} />
-      <Route path='*' element={<h1>NOT FOUND</h1>} />
+      <Route path='*' element={<h1>NOT FOUND!</h1>} />
     </Routes>
   )
 }
