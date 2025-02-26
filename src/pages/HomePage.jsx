@@ -41,6 +41,7 @@ const HomePage = () => {
     return (
         <div>
             <h1>Home</h1>
+            <img src='https://res.cloudinary.com/dpymhxaz1/image/upload/v1740573810/Frame_3_azzeg9.png' />
             <table border="1">
                 <thead>
                     <tr>
